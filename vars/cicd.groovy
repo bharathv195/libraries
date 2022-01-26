@@ -2,7 +2,7 @@ def newGit(repo)
 {
   git "${repo}"
 }
-def newMaven
+def newMaven()
 {
   sh 'mvn package'
 }
