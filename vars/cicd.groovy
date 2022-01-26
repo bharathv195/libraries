@@ -8,5 +8,5 @@ def newMaven()
 }
 def newDeply(ip,appname)
 {
-  sh "scp /var/lib/jenkins/workspace/DeclarativePipeline3/webapp/target/webapp.war ubuntu@${ip}:var/lib/tomcat9/webapps/${appname}.war"
+  sh "scp /var/lib/jenkins/workspace/DeclarativePipeline3/webapp/target/webapp.war ubuntu@${ip}:/var/lib/tomcat9/webapps/${appname}.war"
 }
