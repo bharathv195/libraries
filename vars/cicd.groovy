@@ -1,6 +1,6 @@
-def newGit(repo)
+def newGit(branch,repo)
 {
-   git branch: 'master', url: "${repo}"
+   git branch: "${branch}", url: "${repo}"
 }
 def newMaven()
 {
