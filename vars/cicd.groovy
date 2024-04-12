@@ -1,4 +1,4 @@
 def newGit(repo)
 {
-  git '${repo}'
+   git branch: 'master', url: '${repo}'
 }
